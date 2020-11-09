@@ -37,7 +37,7 @@ should see the following error:
 ```ruby
 NameError:
   undefined local variable or method `phrase' for #<RSpec::ExampleGroups::CatchPhrase:0x007f87b9cf04c0>
-```
+```~
 
 This error is occurring because the code inside the `#catch_phrase` method is
 trying to use the `phrase` variable **but** it's not present inside the _scope_
